@@ -8,6 +8,7 @@ const links = [
   { href: "#about", label: "About" },
   { href: "#mission", label: "Mission & Vision" },
   { href: "#services", label: "Services" },
+  { href: "#why-us", label: "Why Us" },
   { href: "#showcase", label: "Showcase" },
   { href: "#contact", label: "Contact" },
 ];
@@ -42,8 +43,13 @@ export default function Navbar() {
           >
             <Cpu className="h-5 w-5 text-white" />
           </motion.span>
-          <span className="font-semibold tracking-tight text-white">
-            Mudango<span className="text-sky-400">.</span>
+          <span className="leading-tight">
+            <span className="block font-semibold tracking-tight text-white">
+              Mudango<span className="text-sky-400">.</span>
+            </span>
+            <span className="hidden text-[10px] font-medium uppercase tracking-[0.15em] text-slate-400 sm:block">
+              Simplifying IT
+            </span>
           </span>
         </a>
 

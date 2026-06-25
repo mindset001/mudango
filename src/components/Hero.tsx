@@ -24,7 +24,7 @@ export default function Hero() {
             transition={{ duration: 0.5 }}
             className="mb-6 inline-flex items-center gap-2 rounded-full border border-sky-400/30 bg-sky-400/10 px-4 py-1.5 text-xs font-medium text-sky-300"
           >
-            {company.rc} &middot; Since {company.founded}
+            {company.slogan} &middot; {company.rc} &middot; Since {company.founded}
           </motion.span>
 
           <h1 className="mb-6 text-4xl font-bold leading-tight tracking-tight text-white sm:text-5xl lg:text-6xl">
